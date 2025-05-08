@@ -19,6 +19,7 @@ def create_event():
     This endpoint should eventually insert data into the database.
     The database communication is currently stubbed out.
     You must implement insert_data_into_db() function to integrate with your MySQL RDS Instance.
+    Test!
     """
     try:
         payload = request.get_json()
